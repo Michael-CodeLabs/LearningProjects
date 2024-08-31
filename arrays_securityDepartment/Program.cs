@@ -9,7 +9,7 @@ fraudulentOrderIDs[5] = "G3003";
 fraudulentOrderIDs[6] = "C235";
 fraudulentOrderIDs[7] = "B175";
 
-foreach (var i in fraudulentOrderIDs)
+foreach (string i in fraudulentOrderIDs)
 if (i.StartsWith("B"))
 {
     Console.WriteLine(i);

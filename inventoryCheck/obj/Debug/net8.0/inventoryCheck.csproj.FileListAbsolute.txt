@@ -1,0 +1,15 @@
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\inventoryCheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\inventoryCheck.AssemblyInfoInputs.cache
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\inventoryCheck.AssemblyInfo.cs
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\inventoryCheck.csproj.CoreCompileInputs.cache
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\inventoryCheck.sourcelink.json
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\bin\Debug\net8.0\inventoryCheck.exe
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\bin\Debug\net8.0\inventoryCheck.deps.json
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\bin\Debug\net8.0\inventoryCheck.runtimeconfig.json
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\bin\Debug\net8.0\inventoryCheck.dll
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\bin\Debug\net8.0\inventoryCheck.pdb
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\inventoryCheck.dll
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\refint\inventoryCheck.dll
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\inventoryCheck.pdb
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\inventoryCheck.genruntimeconfig.cache
+C:\Users\Moe\Documents\CSHARP\Projects\inventoryCheck\obj\Debug\net8.0\ref\inventoryCheck.dll

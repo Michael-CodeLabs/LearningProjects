@@ -1,19 +1,16 @@
-﻿//string[] fradulentOrderIDs = new string[3];
+﻿string[] fraudulentOrderIDs = new string[8];
 
-/*fradulentOrderIDs[0] = "A123";
-fradulentOrderIDs[1] = "B456";
-fradulentOrderIDs[2] = "C789";
-//fradulentOrderIDs[3] = "D000";
-*/
+fraudulentOrderIDs[0] = "B123";
+fraudulentOrderIDs[1] = "C234";
+fraudulentOrderIDs[2] = "A345";
+fraudulentOrderIDs[3] = "C15";
+fraudulentOrderIDs[4] = "B177";
+fraudulentOrderIDs[5] = "G3003";
+fraudulentOrderIDs[6] = "C235";
+fraudulentOrderIDs[7] = "B175";
 
-
-string[] fraudulentOrderIDs = ["A123", "B456", "C789"];
-
-Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
-Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
-Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
-
-fraudulentOrderIDs[0] = "F000";
-Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
-
-Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
+foreach (var i in fraudulentOrderIDs)
+if (i.StartsWith("B"))
+{
+    Console.WriteLine(i);
+}

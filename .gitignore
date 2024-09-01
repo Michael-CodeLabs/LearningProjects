@@ -1,22 +1,67 @@
 # Ignore everything by default
 *
 
-# Allow all folders (but not their content)
+# Allow all folders, but not their contents
 !*/
 
-# Allow specific file types
-!*.cs
-!*.csproj
-!*.sln
-!*.gitignore
-!*.md
+# Allow all files within the Projects folder itself
+!Projects/*
 
-# Ignore everything within subfolders of Projects/DiceGame/
-Projects/DiceGame/*/**
-Projects/DevCollab/*/**
-Projects/arrays_securityDepartment/*/**
-Projects/expression_evaluation/*/**
-Projects/GradingV2/*/**
-Projects/inventoryCheck/*/**
-Projects/subscription_notify/*/**
+# Allow one specific subfolder and its content, e.g., Example1
+!Projects/arrays_securityDepartment/
+!Projects/DevCollab/
+!Projects/DiceGame/
+!Projects/expression_evaluation/
+!Projects/GradingV2/
+!Projects/inventoryCheck/
+!Projects/subscription_notify/
 
+# Ignore all subfolders within that specific subfolder (Example1)
+!Projects/arrays_securityDepartment/*/
+!Projects/DevCollab/*/
+!Projects/DiceGame/*/
+!Projects/expression_evaluation/*/
+!Projects/GradingV2/*/
+!Projects/inventoryCheck/*/
+!Projects/subscription_notify/*/
+# Allow specific file types within the Projects folder and the specified subfolder (Example1)
+!Projects/*.cs
+!Projects/*.csproj
+!Projects/*.sln
+!Projects/*.gitignore
+!Projects/*.md
+
+!Projects/arrays_securityDepartment/*.cs
+!Projects/arrays_securityDepartment/*.csproj
+!Projects/arrays_securityDepartment/*.sln
+!Projects/arrays_securityDepartment/*.md
+
+!Projects/DevCollab/*.cs
+!Projects/DevCollab/*.csproj
+!Projects/DevCollab/*.sln
+!Projects/DevCollab/*.md
+
+!Projects/DiceGame/*.cs
+!Projects/DiceGame/*.csproj
+!Projects/DiceGame/*.sln
+!Projects/DiceGame/*.md
+
+!Projects/expression_evaluation/*.cs
+!Projects/expression_evaluation/*.csproj
+!Projects/expression_evaluation/*.sln
+!Projects/expression_evaluation/*.md
+
+!Projects/GradingV2/*.cs
+!Projects/GradingV2/*.csproj
+!Projects/GradingV2/*.sln
+!Projects/GradingV2/*.md
+
+!Projects/inventoryCheck/*.cs
+!Projects/inventoryCheck/*.csproj
+!Projects/inventoryCheck/*.sln
+!Projects/inventoryCheck/*.md
+
+!Projects/subscription_notify/*.cs
+!Projects/subscription_notify/*.csproj
+!Projects/subscription_notify/*.sln
+!Projects/subscription_notify/*.md

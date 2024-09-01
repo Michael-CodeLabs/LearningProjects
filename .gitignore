@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+
+# Allow all folders (but not their content)
+!*/
+
+# Allow specific file types
+!*.cs
+!*.csproj
+!*.sln
+!*.gitignore
+!*.md
+
+# Ignore everything within subfolders of Projects/DiceGame/
+Projects/DiceGame/*/**
+Projects/DevCollab/*/**
+Projects/arrays_securityDepartment/*/**
+Projects/expression_evaluation/*/**
+Projects/GradingV2/*/**
+Projects/inventoryCheck/*/**
+Projects/subscription_notify/*/**
+

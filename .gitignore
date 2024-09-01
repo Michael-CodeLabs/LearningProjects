@@ -1,0 +1,24 @@
+# Allow all files within the Projects folder itself
+!/Projects/*
+
+# Allow specific subfolders within Projects
+!/Projects/arrays_securityDepartment/
+!/Projects/DevCollab/
+!/Projects/DiceGame/
+!/Projects/expression_evaluation/
+!/Projects/GradingV2/
+!/Projects/inventoryCheck/
+!/Projects/subscription_notify/
+
+# Ignore everything in subfolders by default
+/Projects/*/*
+
+# But allow specific file types in all subfolders
+!/Projects/*/*.cs
+!/Projects/*/*.csproj
+!/Projects/*/*.sln
+!/Projects/*/*.gitignore
+!/Projects/*/*.md
+
+# Ignore any further nested folders
+/Projects/*/*/**

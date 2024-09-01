@@ -1,7 +1,7 @@
-# Allow all files within the Projects folder itself
-!/Projects/*
+# Ignore everything in Projects by default
+/Projects/*
 
-# Allow specific subfolders within Projects
+# But allow specific folders
 !/Projects/arrays_securityDepartment/
 !/Projects/DevCollab/
 !/Projects/DiceGame/
@@ -10,15 +10,41 @@
 !/Projects/inventoryCheck/
 !/Projects/subscription_notify/
 
-# Ignore everything in subfolders by default
-/Projects/*/*
+# Ignore bin and obj folders
+**/bin/
+**/obj/
 
-# But allow specific file types in all subfolders
-!/Projects/*/*.cs
-!/Projects/*/*.csproj
-!/Projects/*/*.sln
-!/Projects/*/*.gitignore
-!/Projects/*/*.md
+# Allow specific file types
+!**/*.cs
+!**/*.csproj
+!**/*.sln
+!**/*.gitignore
+!**/*.md
 
-# Ignore any further nested folders
-/Projects/*/*/**
+# Ignore specific file types that should never be committed
+**/*.exe
+**/*.dll
+**/*.pdb
+**/*.cache
+**/*.json
+
+# Re-include csproj files (which are .json files)
+!**/*.csproj.json
+
+# Ignore user-specific files
+**/*.user
+**/.vs/
+**/.vscode/
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/

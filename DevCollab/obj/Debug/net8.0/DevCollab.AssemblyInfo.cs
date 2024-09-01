@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevCollab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f18637d13ed13715b1974c7aaa724f17bdd68158")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+115326de78963bda4f294b0f4ed1dd4a82aa8042")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevCollab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevCollab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

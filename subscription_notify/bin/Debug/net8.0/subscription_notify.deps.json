@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "subscription_notify/1.0.0": {
+        "runtime": {
+          "subscription_notify.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "subscription_notify/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

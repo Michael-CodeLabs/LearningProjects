@@ -9,7 +9,8 @@
 !/Projects/GradingV2/
 !/Projects/inventoryCheck/
 !/Projects/subscription_notify/
-
+!/Projects/control_variable_scope/
+!/Projects/code_flow_switch_case/
 # Ignore bin and obj folders
 **/bin/
 **/obj/

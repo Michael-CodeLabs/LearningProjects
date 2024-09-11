@@ -11,6 +11,9 @@
 !/Projects/subscription_notify/
 !/Projects/control_variable_scope/
 !/Projects/code_flow_switch_case/
+!/Projects/for_statement_iteration/
+!/Projects/FizzBuzz_Challenge/
+
 # Ignore bin and obj folders
 **/bin/
 **/obj/

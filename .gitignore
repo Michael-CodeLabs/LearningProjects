@@ -13,6 +13,9 @@
 !/Projects/code_flow_switch_case/
 !/Projects/for_statement_iteration/
 !/Projects/FizzBuzz_Challenge/
+!/Projects/validating_interger_input/
+!/Projects/validating_string_input/
+!/Projects/process_contents_of_string_array/
 
 # Ignore bin and obj folders
 **/bin/
